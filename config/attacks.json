@@ -1,23 +1,21 @@
 {
     "attack toggle": true,
-    "single instance":true,
-    "global concurrents":null,
-    "attack spinner":false,
-    "verify api certificate":true,
-    "allow attack by range":false,
-    
+    "single instance": false,
+    "global concurrents": 999999,
+    "attack spinner": false,
+    "verify api certificate": true,
+    "allow attack by range": true,
+    "api debug": true,
     "host limit": {
-        "enabled":true,
-        "attacks":2,
-        "seconds":3600
+        "enabled": false,
+        "attacks": 2,
+        "seconds": 3600
     },
-    
-    "groups":[
+    "groups": [
         {
-            "name":"test",
-            "concurrents":3,
-            "timelimit":600
+            "name": "test",
+            "timelimit": 600,
+            "concurrents": 3
         }
     ]
-
 }
