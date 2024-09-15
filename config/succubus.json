@@ -24,7 +24,7 @@
         "maximum": 1300
     },
     "branding": {
-        "title": "F C2-API | [<<$username>>] | Ongoing[<<$allgoing>>/20] Online[<<$onlineusers>>/11] Expiry[<<$expiry>>] VIP[<<$vip>>] SuperVIP[<<$reseller>>]",
+        "title": "F C2-API | [<<$username>>] | Ongoing[<<$allgoing>>/<<$totalusers>>] Online[<<$onlineusers>>/<<$totalusers>>] Expiry[<<$expiry>>] VIP[<<$vip>>] SuperVIP[<<$reseller>>]",
         "prompt": "<<$username>>@fuck-network:~# ",
         "assets": {
             "welcome": "succ",
