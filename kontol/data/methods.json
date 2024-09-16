@@ -5,7 +5,7 @@
       "vip": ["MEMEK"]
     },
     "layer4": {
-      "basic": ["KILL-PING","KILL-SSH", "UDP", "TCP", "OVH"],
+      "basic": [],
       "vip": ["KILLNET"]
     },
     "stop": ["UMAK"]
