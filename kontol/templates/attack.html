@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lost Network</title>
+</head>
+<body class="full">
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/style.css') }}">
+    <center>
+        <img talt="banner" src="{{ url_for('static', filename='assets/lostnetwork.gif') }}" class="center" width="300" height="50"/>
+        <div class="errorText" id="error">{{ logs }}</div>
+        Status: <span class="infoText" id="Status">{% if status %}{{ status }}{% else %}...{% endif %}</span><br>
+        Host: <span class="infoText" id="Host">{% if host %}{{ host }}{% else %}...{% endif %}</span><br>
+        Port: <span class="infoText" id="Port">{% if port %}{{ port }}{% else %}...{% endif %}</span><br>
+        Time: <span class="infoText" id="Time">{% if times %}{{ times }}{% else %}...{% endif %}</span><br>
+        Method: <span class="infoText" id="Method">{% if method %}{{ method }}{% else %}...{% endif %}</span><br>
+        Delay: <span class="infoText" id="Delay">{% if delay %}{{ delay }}{% else %}...{% endif %}</span><br>
+        Slots: <span class="infoText" id="Slots">{% if slots %}{{ slots }}{% else %}...{% endif %}</span><br>
+    </center>
+</body>
+</html>
