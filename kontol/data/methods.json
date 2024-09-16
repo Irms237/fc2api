@@ -1,7 +1,7 @@
 {
   "methods": {
     "layer7": {
-      "basic": ["PAIRING", "BYPASS", "RAW", "FLOOD", "TLS", "GOLDEN", "STATIC", "UPDATE", "REBOOT", "STOP", "PROXY", "KILLER", "STRIKE", "NINJA", "UPNODE", "FLOOD-PANEL", "HTTP-X", "TLSV3", "ULTRA-FLOOD", "TLSV2", "PIDORAS"],
+      "basic": [],
       "vip": ["MEMEK"]
     },
     "layer4": {
